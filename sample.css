@@ -1,0 +1,101 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.form-container form {
+    text-align: left;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%; /* Adjust the width as needed */
+}
+
+.form-container h2 {
+    font-weight: bold;
+    color: #370be7;
+    margin: 0 0 20px;
+}
+
+input {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+  }
+
+input[class="input1"] {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center; 
+}
+  
+label{       
+   color: #f0390f; 
+   font-weight:bold;
+   font-size: 15px;
+}
+
+h2{
+    font-weight:bold;
+    color: #3e0bce;
+    margin: 20px 0;
+   
+}
+/* table */
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background: #3e0bce;
+    color:#fff;
+    text-align: center;
+}
+table th, table td {
+    padding: 5px;
+}
+ 
+tr:nth-child(even) {
+   background-color: #D6EEEE;
+   text-align: center;
+}
+ 
+tr:nth-child(odd) {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #3e0bce;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+.announcement{
+    position: absolute;
+    top: 19vh;
+    left: 20px;
+    margin-right: 20px;
+    background-color: #c06600;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.4);
+    color: #fff;
+
+}
+
